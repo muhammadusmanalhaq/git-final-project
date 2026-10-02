@@ -7,3 +7,12 @@ Fast-forward
  simple_interest.py | 23 +++++++++++++++++++++++
  1 file changed, 23 insertions(+)
  create mode 100644 simple_interest.py
+
+$ git checkout main
+Switched to branch 'main'
+
+$ git merge readme-update
+Updating 3b86d70..395d852
+Fast-forward
+ README.md | 37 ++++++++++++++++++++++++++-----------
+ 1 file changed, 26 insertions(+), 11 deletions(-)

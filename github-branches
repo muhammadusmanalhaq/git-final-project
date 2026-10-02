@@ -2,9 +2,11 @@ $ git fetch --all
 Fetching origin
 
 $ git branch -a -v
+  bug-fix-revert                395d852 Update README.md: add usage example and bash script reference
   bug-fix-typo                  26c42ef Fix typo: add simple_interest.py with corrected docstring and formula
   feature-branch                d7f42b0 Add CONTRIBUTING.md: Contributing guide for Simple Interest Calculator
-* main                          b0e5953 Add bug-fix-revert: curl output of PR from forked repo to upstream IBM repo
+* main                          395d852 Update README.md: add usage example and bash script reference
+  readme-update                 395d852 Update README.md: add usage example and bash script reference
   remotes/origin/HEAD           -> origin/main
   remotes/origin/feature-branch 5114908 Add feature file: sample.py with greet and add functions
-  remotes/origin/main           b0e5953 Add bug-fix-revert: curl output of PR from forked repo to upstream IBM repo
+  remotes/origin/main           3b86d70 Add github-branches: terminal output of all branch names and their status

@@ -4,7 +4,9 @@ A simple script that calculates simple interest given principal, annual rate of 
 
 ## Formula
 
-`Simple Interest = (P x T x R) / 100`
+```
+Simple Interest = (P x T x R) / 100
+```
 
 ## Input
 
@@ -18,19 +20,32 @@ A simple script that calculates simple interest given principal, annual rate of 
 
 ## Usage
 
-`python
+```bash
+chmod +x simple-interest.sh
+./simple-interest.sh
+```
+
+### Example Run
+
+```
+Enter the principal amount:
+1000
+Enter the rate of interest (per year):
+5
+Enter the time period (in years):
+2
+Simple Interest = 100.00
+```
+
+## Python Version
+
+```python
 def simple_interest(p, t, r):
-    """Calculate simple interest."""
     return (p * t * r) / 100
 
-# Example
-principal = 1000
-time = 2
-rate = 5
-si = simple_interest(principal, time, rate)
-print(f"Simple Interest = {si}")
-`
+print(simple_interest(1000, 2, 5))
+```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
